@@ -12,6 +12,7 @@
 		DAAD24F1216D5F000059C3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAD24EF216D5F000059C3FF /* Main.storyboard */; };
 		DAAD24F3216D5F000059C3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAD24F2216D5F000059C3FF /* Assets.xcassets */; };
 		DAAD24F6216D5F000059C3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAD24F4216D5F000059C3FF /* LaunchScreen.storyboard */; };
+		DAAD24FE216D66A40059C3FF /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD24FD216D66A40059C3FF /* LocationSearchTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DAAD24F2216D5F000059C3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAD24F5216D5F000059C3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAD24F7216D5F000059C3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAD24FD216D66A40059C3FF /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DAAD24F2216D5F000059C3FF /* Assets.xcassets */,
 				DAAD24F4216D5F000059C3FF /* LaunchScreen.storyboard */,
 				DAAD24F7216D5F000059C3FF /* Info.plist */,
+				DAAD24FD216D66A40059C3FF /* LocationSearchTable.swift */,
 			);
 			path = MapkitSearch;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAD24FE216D66A40059C3FF /* LocationSearchTable.swift in Sources */,
 				DAAD24EE216D5F000059C3FF /* ViewController.swift in Sources */,
 				DAAD24EC216D5F000059C3FF /* AppDelegate.swift in Sources */,
 			);
